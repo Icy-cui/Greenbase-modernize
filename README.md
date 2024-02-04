@@ -1,27 +1,52 @@
-# GreenbaseModernize
+# Orders Dashboard - Angular Application
+This project is a standalone Angular application that implements a single-page Orders Dashboard, based on a provided Figma design. It includes custom-styled components that replicate the look and feel of the design.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+## Component Prototype
 
-## Development server
+![Alt text](image.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Getting Started
 
-## Code scaffolding
+### Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Node.js](https://nodejs.org/)
+- Angular CLI: `npm install -g @angular/cli`
+- Angular Material
 
-## Build
+### Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone the repository
+   ```sh
+   git clone https://github.com/Icy-cui/Greenbase-modernize.git
+2. Navigate to the project directory if not already there
+    ```sh
+    cd Greenbase-modernize
+4. Install NPM packages
+    ```sh
+    npm install
+5. Run the development server
+   ```sh
+   ng serve
+6. Start the server at: `http://localhost:4200/`
 
-## Running unit tests
+## Code Structure
+`src/app/`: Main application folder.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+​    `components/`: Angular components for each part of the page.
 
-## Running end-to-end tests
+​    `services/`: Angular services for data management and API calls.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+​    `models/`: TypeScript models/interfaces.
 
-## Further help
+​    `styles/`: SCSS files for styling components as per Figma design.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Contact
+**Icy Cui** - yunfei.icy@gmail.com
+
+## Acknowledgements
+[Angular](https://angular.io)
+[Node.js](https://nodejs.org)
+Design inspired by [Figma Design](https://www.figma.com
+)
