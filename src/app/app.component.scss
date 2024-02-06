@@ -1,0 +1,42 @@
+.main {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+.content-container {
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 16px 0 16px;
+
+  h1 {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .btn-group {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+    #export {
+      color: #1e5eff;
+      font-weight: 400;
+      box-shadow: none;
+      border: 1px solid #d7dbec;
+    }
+
+    #add {
+      background-color: #1e5eff;
+      color: white;
+      font-weight: 400;
+      box-shadow: none;
+      border: 1px solid #d7dbec;
+    }
+  }
+}
