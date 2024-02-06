@@ -1,0 +1,17 @@
+section {
+  display: table;
+}
+
+.mat-elevation-z8 {
+  box-shadow: none;
+  border: 1px solid #d7dbec;
+}
+
+table {
+  width: 100%;
+  padding: 10px;
+}
+
+.mat-mdc-standard-chip {
+  --mdc-chip-label-text-color: #fff !important;
+}
